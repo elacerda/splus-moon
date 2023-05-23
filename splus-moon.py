@@ -149,8 +149,10 @@ if __name__ == '__main__':
     print('OBJECT COORD END OBS (ALT, AZ) : ({}, {})'.format(cT_fin.alt, cT_fin.az))
     print('MOON SEPARATION END OBS: {:.5f}'.format(moon_t80s_fin_sep))
     print('MOON ILLUMINATION END OBS: {:.5f}'.format(moon_t80s_fin_illumination))
+    print('####################################')
     print('MEAN MOON SEPARATION: {:.5f}'.format(mms))
     print('MEAN MOON ILLUMINATION: {:.5f}'.format(mmi))
+    print('####################################')
     ##########################################
     ##########################################
     ##########################################

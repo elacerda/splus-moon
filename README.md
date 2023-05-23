@@ -29,8 +29,10 @@ A simple example of result::
 	OBJECT COORD END OBS (ALT, AZ) : (78.9523633264309 deg, 277.87435125012064 deg)
 	MOON SEPARATION END OBS: 161.27437 deg
 	MOON ILLUMINATION END OBS: 0.00020
+	####################################
 	MEAN MOON SEPARATION: 161.28043 deg
 	MEAN MOON ILLUMINATION: 0.00020
+	####################################
 
 Contact
 -------
