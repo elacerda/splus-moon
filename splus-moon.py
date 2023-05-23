@@ -96,7 +96,7 @@ if __name__ == '__main__':
         delta_time = (dt_ini_obs - t80s_dt_obs).total_seconds()
         #print('delta_time: ', delta_time)
     #print('dt_ini_obs: ', dt_ini_obs)
-    print('T80S DATETIME INI OBS: ', dt_ini_obs)
+    #print('T80S DATETIME INI OBS: ', dt_ini_obs)
     t80s_T_ini_obs = Time(dt_ini_obs, location=t80s_EL)# - utc_offset_hours
     #print('t80s_T_ini_obs: ', t80s_T_ini_obs)
 
