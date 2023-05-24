@@ -37,4 +37,4 @@ A simple example of result::
 Contact
 -------
 	
-Contact us: `dhubax@gmail.com <mailto:dhubax@gmail.com>`
+Contact us: [dhubax@gmail.com](mailto:dhubax@gmail.com).
