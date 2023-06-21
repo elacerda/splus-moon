@@ -73,10 +73,10 @@ def add_moon_summary_header(hdr):
     from astropy.coordinates import AltAz, EarthLocation, SkyCoord
 
     def get_location_moon_illumination(location_time, return_moon=False):
-        from astropy.coordinates import get_sun, get_moon
+        from astropy.coordinates import get_body
 
-        sun = get_sun(location_time)
-        moon = get_moon(location_time)
+        sun = get_body('sun', time=location_time)
+        moon = get_body('moon', time=location_time)
         elongation = sun.separation(moon)
         moon_phase_angle = np.arctan2(
             sun.distance*np.sin(elongation), 
